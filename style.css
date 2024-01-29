@@ -45,3 +45,23 @@ img {
 body {
   background-color: rgb(0, 7, 9);
 }
+
+input :checked ul {
+  display: flex;
+  flex-direction: none;
+}
+
+img {
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 758px) {
+  nav ul {
+    display: none;
+  }
+}
